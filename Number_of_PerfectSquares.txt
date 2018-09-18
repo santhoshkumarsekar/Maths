@@ -1,0 +1,14 @@
+Here i am going to note how to find the number of perfect squares between any of two numbers
+
+for Example
+  if a=9 and b=25
+     between them 9,16,25 are the 3 perfect square numbers
+   how to find this
+   
+   by applying this formulae
+     
+      floor(sqrt(b))-ceil(sqrt(a))+1;
+      
+    in JAVA
+      
+      Math.floor(Math.sqrt(b))-Math.ceil(Math.sqrt(a))+1 ;
